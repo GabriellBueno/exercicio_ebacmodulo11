@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <style>
+        header {
+            position: sticky;
+        }
+
+        .card {
+            border-color: blue;
+        }
+
+        h2 {
+            border-bottom: 2px solid blue;
+            width: 300px;
+        }
+
+        .card {
+            border-color: blue;
+        }
+
+        .card-body {
+            height: 200px;
+        }
+
+        .card-body {
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 25px;
+        }
+    </style>
+    <title>Sonata Arctica</title>
+</head>
+
+<body>
+    <header>
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1>Sonata Arctica</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item">
+                            <a href="#inicio" class="nav-link">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#albums" class="nav-link">Albums</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Tour Dates</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+        <section id="inicio" class="mt-5">
+            <div class="container">
+                <div id="carousel-button" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div data-bs-interval="3000" class="carousel-item active">
+                            <img class="d-block w-100"
+                                src="https://www.sonataarctica.info/wp-content/uploads/2014/11/Low-res-by-Jaakko-Manninen-slider-1880x720.jpg"
+                                alt="">
+                        </div>
+                        <div data-bs-interval="3000" id="carousel-button" class="carousel-item">
+                            <img class="d-block w-100"
+                                src="https://www.sonataarctica.info/wp-content/uploads/2014/11/Tavastia2023_slider.jpg"
+                                alt="">
+                        </div>
+                        <div data-bs-interval="3000" id="carousel-button" class="carousel-item">
+                            <img class="d-block w-100"
+                                src="https://www.tramamos.com.br/wp-content/uploads/2019/11/slider_band_3.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div>
+            <section>
+                <div class="container">
+                    <h2 class="mt-5">Sobre a banda</h2>
+                    <p>Sonata Arctica, originalmente conhecida como Tricky Beans e depois como Tricky Means, foi formada
+                        em 1996 em Kemi, Finlândia. Após lançar três demos sob o nome Tricky Beans, eles mudaram para um
+                        estilo mais Power Metal influenciado por bandas como Stratovarius.<br>
+                        Sua demo "FullMoon" chamou a atenção de Ahti Kortelainen, proprietário dos Estúdios Tico Tico,
+                        que os ajudou a garantir um contrato com a Spinefarm Records em 1999.<br>
+                        Renomeando-se como Sonata Arctica, lançaram seu primeiro single "UnOpened" em 1999, seguido pelo
+                        álbum de estreia "Ecliptica", que obteve sucesso internacional.<br>
+                        Para se concentrar mais em apresentações ao vivo, o vocalista Tony Kakko parou de tocar teclados
+                        e fazer vocais simultaneamente, levando à adição do tecladista Mikko Härkin em 2000.<br>
+                        Essa mudança na formação permitiu uma presença dinâmica no palco.<br>
+                        Sonata Arctica fez turnê com Stratovarius e Rhapsody em 2000, conquistando novos fãs, e lançou o
+                        mini CD/EP "Successor" posteriormente.<br>
+                        O baixista Janne Kivilahti deixou a banda em 2000, com o ex-membro Marko Paasikoski se juntando
+                        novamente como seu substituto.<br>
+                        A formação naquele momento consistia em Tony Kakko (vocais), Jani Liimatainen (guitarras), Marko
+                        Paasikoski (baixo), Mikko Härkin (teclados) e Tommy Portimo (bateria).</p>
+                </div>
+            </section>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <h2 class="mt-5" style="width: 300px; padding-bottom: 5px;">Albums</h2>
+            <h3 style="margin-left: 5px;">Albums de Estudio</h3>
+            <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
+                <article class="card">
+                    <img src="https://www.sonataarctica.info/wp-content/uploads/2023/11/IMG_7678-600x600.jpeg" alt="">
+                    <div class="card-body d-flex flex-column">
+                        <h4 class="card-title">Clear Cold Beyond</h4>
+                        <h5 class="card-subtitle">March 8, 2024</h5>
+                        <button type="button" class="mt-auto" style="border: none; background-color: white;"><a
+                                class="btn btn-primary" href="">Lista de Faixas</a></button>
+                    </div>
+                </article>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
+                <article class="card">
+                    <img src="https://www.sonataarctica.info/wp-content/uploads/2019/08/SA_Talviyo-600x600.jpeg" alt="">
+                    <div class="card-body d-flex flex-column">
+                        <h4 class="card-title">Talviyö</h4>
+                        <h5 class="card-subtitle">Setembro 6, 2019</h5>
+                        <button type="button" class="mt-auto" style="border: none; background-color: white;"><a
+                                class="btn btn-primary" href="">Lista de Faixas</a></button>
+                    </div>
+                </article>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
+                <article class="card">
+                    <img src="https://www.sonataarctica.info/wp-content/uploads/2019/08/The-Ninth-Hour-cover.jpeg"
+                        alt="">
+                    <div class="card-body d-flex flex-column">
+                        <h4 class="card-title">The Ninth Hour</h4>
+                        <h5 class="card-subtitle">October 7, 2016</h5>
+                        <button type="button" class="mt-auto" style="border: none; background-color: white;"><a
+                                class="btn btn-primary" href="">Lista de Faixas</a></button>
+                    </div>
+                </article>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
+                <article class="card">
+                    <img src="https://www.sonataarctica.info/wp-content/uploads/2019/08/eclipticarevisited_cover.jpg"
+                        alt="">
+                    <div class="card-body d-flex flex-column">
+                        <h4 class="card-title">Ecliptica (Revisited: 15th Anniversary Edition)</h4>
+                        <h5 class="card-subtitle">October 24, 2014</h5>
+                        <button type="button" class="mt-auto" style="border: none; background-color: white;"><a
+                                class="btn btn-primary" href="">Lista de Faixas</a></button>
+                    </div>
+                </article>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
+                <article class="card">
+                    <img src="https://www.sonataarctica.info/wp-content/uploads/2019/08/pariahs_child_cover-600x600.jpg"
+                        alt="">
+                    <div class="card-body d-flex flex-column">
+                        <h4 class="card-title">Pariah’s Child</h4>
+                        <h5 class="card-subtitle">March 28, 2014</h5>
+                        <button type="button" class="mt-auto" style="border: none; background-color: white;"><a
+                                class="btn btn-primary" href="">Lista de Faixas</a></button>
+                    </div>
+                </article>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
+                <article class="card">
+                    <img src="https://www.sonataarctica.info/wp-content/uploads/2019/08/stones_grow_her_name_cover-600x600.jpg"
+                        alt="">
+                    <div class="card-body d-flex flex-column">
+                        <h4 class="card-title">Stones Grow Her Name</h4>
+                        <h5 class="card-subtitle">May 16, 2012</h5>
+                        <button type="button" class="mt-auto" style="border: none; background-color: white;"><a
+                                class="btn btn-primary" href="">Lista de Faixas</a></button>
+                    </div>
+                </article>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
+                <article class="card">
+                    <img src="https://www.sonataarctica.info/wp-content/uploads/2019/08/the_days_of_grays_cover.jpg"
+                        alt="">
+                    <div class="card-body d-flex flex-column">
+                        <h4 class="card-title">The Days Of Grays</h4>
+                        <h5 class="card-subtitle">September 16, 2009</h5>
+                        <button type="button" class="mt-auto" style="border: none; background-color: white;"><a
+                                class="btn btn-primary" href="">Lista de Faixas</a></button>
+                    </div>
+                </article>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
+                <article class="card">
+                    <img src="https://www.sonataarctica.info/wp-content/uploads/2019/08/silence-re-issue_cover.jpg"
+                        alt="">
+                    <div class="card-body d-flex flex-column">
+                        <h4 class="card-title">Silence (Re-Issue)</h4>
+                        <h5 class="card-subtitle">October 8, 2008</h5>
+                        <button type="button" class="mt-auto" style="border: none; background-color: white;"><a
+                                class="btn btn-primary" href="">Lista de Faixas</a></button>
+                    </div>
+                </article>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
+                <article class="card">
+                    <img src="https://www.sonataarctica.info/wp-content/uploads/2019/08/ecliptica-re-issue_cover.jpg"
+                        alt="">
+                    <div class="card-body d-flex flex-column">
+                        <h4 class="card-title">Ecliptica (Re-Issue)</h4>
+                        <h5 class="card-subtitle">October 8, 2008</h5>
+                        <button type="button" class="mt-auto" style="border: none; background-color: white;"><a
+                                class="btn btn-primary" href="">Lista de Faixas</a></button>
+                    </div>
+                </article>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
+                <article class="card">
+                    <img src="https://www.sonataarctica.info/wp-content/uploads/2019/08/unia_cover.jpg" alt="">
+                    <div class="card-body d-flex flex-column">
+                        <h4 class="card-title">Unia</h4>
+                        <h5 class="card-subtitle">May 25, 2007</h5>
+                        <button type="button" class="mt-auto" style="border: none; background-color: white;"><a
+                                class="btn btn-primary" href="">Lista de Faixas</a></button>
+                    </div>
+                </article>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
+                <article class="card">
+                    <img src="https://www.sonataarctica.info/wp-content/uploads/2019/08/reckoning_night_cover-600x600.jpg"
+                        alt="">
+                    <div class="card-body d-flex flex-column">
+                        <h4 class="card-title">Reckoning Night</h4>
+                        <h5 class="card-subtitle">September 22, 2004</h5>
+                        <button type="button" class="mt-auto" style="border: none; background-color: white;"><a
+                                class="btn btn-primary" href="">Lista de Faixas</a></button>
+                    </div>
+                </article>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
+                <article class="card">
+                    <img src="https://www.sonataarctica.info/wp-content/uploads/2019/08/winterhearts_guild_cover.jpg"
+                        alt="">
+                    <div class="card-body d-flex flex-column">
+                        <h4 class="card-title">Winterheart’s Guild</h4>
+                        <h5 class="card-subtitle">February 21, 2003</h5>
+                        <button type="button" class="mt-auto" style="border: none; background-color: white;"><a
+                                class="btn btn-primary" href="">Lista de Faixas</a></button>
+                    </div>
+                </article>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
+                <article class="card">
+                    <img src="https://www.sonataarctica.info/wp-content/uploads/2019/08/silence_cover.jpg" alt="">
+                    <div class="card-body d-flex flex-column">
+                        <h4 class="card-title">Silence</h4>
+                        <h5 class="card-subtitle">June 21, 2001</h5>
+                        <button type="button" class="mt-auto" style="border: none; background-color: white;"><a
+                                class="btn btn-primary" href="">Lista de Faixas</a></button>
+                    </div>
+                </article>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
+                <article class="card">
+                    <img src="https://www.sonataarctica.info/wp-content/uploads/2019/08/ecliptica_cover.jpg" alt="">
+                    <div class="card-body d-flex flex-column">
+                        <h4 class="card-title">Ecliptica</h4>
+                        <h5 class="card-subtitle">November 22, 1999</h5>
+                        <button type="button" class="mt-auto" style="border: none; background-color: white;"><a
+                                class="btn btn-primary" href="">Lista de Faixas</a></button>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <footer>
+            <p>Desenvolvido por Gabriel Bueno - 2024</p>
+        </footer>
+    </div>
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
